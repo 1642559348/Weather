@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name=viewport
+    content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+  <meta name="referrer" content="no-referrer">
+  <title>xgplayer</title>
+  <style type="text/css">
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    .videoindexbox {
+      max-width: 680px;
+      height: 1200px;
+      margin: 0 auto;
+      background-color: rgb(255, 255, 255);
+    }
+    .videoindexbox  .videobox1{
+      width: 95%;
+      margin: 0px auto;
+      border-radius: 4px;
+      background-color: rgba(255, 0, 0, 0);
+    }
+    .videoindexbox  .videobox1 video{
+      width: 100%;
+      display: block;
+      margin: 0px auto;
+      border-radius: 8px;
+    }
+    .videobox2{
+      width: 95%;
+      margin: 0 auto;
+    }
+    .videobox2Main{
+      width: 100%;
+      height: 160px;
+      padding: 8px 0;
+      cursor: pointer;
+      background: rgb(255, 255, 255);
+    }
+    .videobox2Main .videosource1{
+      width: 45%;
+      float: left;
+      margin-right: 15px;
+      position: relative;
+    }
+    .bofang{
+      width: 30px;
+      height: 30px;
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      right: 0;
+      text-align: center;
+      line-height: 30px;
+      margin: auto;
+      transform: rotate(90deg);
+      border-radius: 50%;
+      cursor: pointer;
+      user-select: none;
+      display: none;
+      
+      
+    }
+    .bofang:hover{
+      background-color: rgb(0, 0, 0);
+      color: white;
+    }
+    .videobox2Main .videosource2{
+      width: 50%;
+      float: left;
+    }
+    .videosource1 a{
+      display: block;
+      width: 100%;
+    }
+    .videosource1 a img{
+      display: block;
+      width: 100%;
+      border-radius: 10px;
+
+    }
+    .videobox2Main .videosource2 .videosource2_top{
+      width: 60%;
+      padding-bottom: 20%;
+      padding-top: 10%;
+    }
+    .videobox2Main .videosource2 .videosource2_button{
+      color: rgba(179, 179, 179, 0.788);
+    }
+
+    @media screen and (max-width:768px) {
+      .videobox2Main{
+      width: 100%;
+      height: 90px;
+    }
+    .videobox2Main .videosource2 .videosource2_top{
+      width: 95%;
+      padding-bottom: 12px;
+      padding-top: 12px;
+    }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="videoindexbox">
+    <div class="videobox1">
+      <video controls>
+        <source src="https://dvod.weatherol.com/3e5eaf1c02014612bf6a1349801b7489/6ee6cccb365c1c9b9919cee9e20b6a22-fd.mp4" type="video/mp4">
+        <source src="https://dvod.weatherol.com/3e5eaf1c02014612bf6a1349801b7489/6ee6cccb365c1c9b9919cee9e20b6a22-fd.mp4" type="video/ogg">
+        请您更换其他浏览器试试。
+      </video>
+    </div>
+    
+    <div class="videobox2">
+      <p>精彩推荐</p>
+      <div class="videobox2Main">
+          <div class="videosource1">
+            <a href="#">
+              <img src="https://dvod.weatherol.com/image/cover/C0ED3D43FCF94384B84FB54BE8E85B63-6-2.png" alt="">
+            </a>
+            <div class="bofang">=</div>
+          </div>
+          <div class="videosource2">
+              <div class="videosource2_top">谷雨食春 鲜嫩香椿应该怎么挑选</div>
+              <div class="videosource2_button">2021-04-13</div>
+          </div>
+        </div>
+        <!-- 2 -->
+        <div class="videobox2Main">
+          <div class="videosource1">
+            <a href="#">
+              <img src="https://dvod.weatherol.com/image/cover/C0ED3D43FCF94384B84FB54BE8E85B63-6-2.png" alt="">
+            </a>
+            <div class="bofang">=</div>
+          </div>
+          <div class="videosource2">
+              <div class="videosource2_top">谷雨食春 鲜嫩香椿应该怎么挑选</div>
+              <div class="videosource2_button">2021-04-13</div>
+          </div>
+        </div>
+        <!-- 3 -->
+        <div class="videobox2Main">
+          <div class="videosource1">
+            <a href="#">
+              <img src="https://dvod.weatherol.com/image/cover/C0ED3D43FCF94384B84FB54BE8E85B63-6-2.png" alt="">
+            </a>
+            <div class="bofang">=</div>
+          </div>
+          <div class="videosource2">
+              <div class="videosource2_top">谷雨食春 鲜嫩香椿应该怎么挑选</div>
+              <div class="videosource2_button">2021-04-13</div>
+          </div>
+        </div>
+        <!-- 4 -->
+        <div class="videobox2Main">
+          <div class="videosource1">
+            <a href="#">
+              <img src="https://dvod.weatherol.com/image/cover/C0ED3D43FCF94384B84FB54BE8E85B63-6-2.png" alt="">
+            </a>
+            <div class="bofang">=</div>
+          </div>
+          <div class="videosource2">
+              <div class="videosource2_top">谷雨食春 鲜嫩香椿应该怎么挑选</div>
+              <div class="videosource2_button">2021-04-13</div>
+          </div>
+        </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
+<script>
+  window.onload=function(){
+    let  ovideobox2Main= document.querySelectorAll('.videobox2Main');
+    let  obofang= document.querySelectorAll('.bofang');
+    for(var i = 0 ;i<ovideobox2Main.length;i++){
+      ovideobox2Main[i].index = i;
+          ovideobox2Main[i].onmouseover  =function(){
+          obofang[this.index].style.display = "block";
+      }
+      ovideobox2Main[i].onmouseout  =function(){
+          obofang[this.index].style.display = "none";
+          }
+        }
+  }
+</script>
+
+<!-- 
+  photo: "https://dvod.weatherol.com/image/cover/C0ED3D43FCF94384B84FB54BE8E85B63-6-2.png"
+  playAuth: "eyJTZWN1cml0eVRva2VuIjoiQ0FJU2h3TjFxNkZ0NUIyeWZTaklyNWZSQnZ5RGpKUlN6YVNwTTF5SXFrSW1PdUJoaDVmZmhEejJJSDFFZm5sb0FPa2FzUHd6bFd0UjZmd2Vsck1xRXM0ZEhSMmROcFl2dHM0T3FWdjlKcExGc3QySjZyOEpqc1ZienN0ZjgxbXBzdlhKYXNEVkVmbDJFNVhFTWlJUi8wMGU2TC8rY2lyWXBUWEhWYlNDbFo5Z2FQa09Rd0M4ZGtBb0xkeEtKd3hrMnQxNFVtWFdPYVNDUHdMU2htUEJMVXhtdldnR2wyUnp1NHV5M3ZPZDVoZlpwMXI4eE80YXhlTDBQb1AyVjgxbExacGxlc3FwM0k0U2M3YmFnaFpVNGdscjhxbHg3c3BCNVN5Vmt0eVdHVWhKL3phTElvaXQ3TnBqZmlCMGVvUUFQb3BGcC9YNmp2QWF3UExVbTliWXhncGhCOFIrWGo3RFpZYXV4N0d6ZW9XVE84MCthS3p3TmxuVXo5bUxMZU9WaVE0L1ptOEJQdzQ0RUxoSWFGMElVRXh6Rm1xQ2QvWDRvZ3lRTzE3eUdwTG9pdjltamNCSHFIeno1c2VQS2xTMVJMR1U3RDBWSUpkVWJUbHphazVNalRTNEsvTllLMUFkS0FvNFhlcVBNYXgzYlFGRHI1M3ZzVGJiWHpaYjBtcHR1UG56ZDFRSUNGZk1sRWVVR29BQmRoTE9nNFJzZHQ2ZjROVVlwbUNtUnVYbnYxRVB2R1U1OEdJUlpoTUdxSTFWVUZ1bmxlcjF0Yk1qZjNoSlBERk5xNm9QZzgxQW5rV0dlakVhZ3BXa1k3WVFDMlVuU1l6bDVsQnFEam81RDFCeDNUSDVoWkxzWEFnYU5aZW1WQkpHNFRlQjJBTXBWQmJnM0lFYllDOTdvaUIyZDVwWVBJamtEaFZ5Q05uODhuOD0iLCJBdXRoSW5mbyI6IntcIkNJXCI6XCJnY2hUQmswaUtBbXF4akxRQ0RMTyt1S2p5RmVtdzNFZGFzZHNRUUhnbzBxSFl3YVQ2TGNCay80dk1KMTdkVUQyZ2JVTHVZbTVSd0JQSjBCbm82ZFpuOE1ORVNHd2d5eG9kUjRMK1lhM2lwOD1cIixcIkNhbGxlclwiOlwiTm9jaXNLbnRJaWVuTFVvcHdqVGVIeXB3RFg5c1J3eW5JbTdVMXFLNDMrUT1cIixcIkV4cGlyZVRpbWVcIjpcIjIwMjEtMDQtMjRUMTU6NDA6MjJaXCIsXCJNZWRpYUlkXCI6XCIzNTgyNWRhODc4MzA0NjVkYTc0ZTk3YTJjMmZhNGYzN1wiLFwiUGxheURvbWFpblwiOlwiZHZvZC53ZWF0aGVyb2wuY29tXCIsXCJTaWduYXR1cmVcIjpcIkVQMmxHSS9JRmNNZnZSUXhKZk5VaTBIVE5Uaz1cIn0iLCJWaWRlb01ldGEiOnsiU3RhdHVzIjoiTm9ybWFsIiwiVmlkZW9JZCI6IjM1ODI1ZGE4NzgzMDQ2NWRhNzRlOTdhMmMyZmE0ZjM3IiwiVGl0bGUiOiLosLfpm6jpo5/mmKUg6bKc5aup6aaZ5qS/5bqU6K+l5oCO5LmI5oyR6YCJIiwiQ292ZXJVUkwiOiJodHRwczovL2R2b2Qud2VhdGhlcm9sLmNvbS9pbWFnZS9jb3Zlci9DMEVEM0Q0M0ZDRjk0Mzg0Qjg0RkI1NEJFOEU4NUI2My02LTIucG5nIiwiRHVyYXRpb24iOjEwNi40NjR9LCJBY2Nlc3NLZXlJZCI6IlNUUy5OVGRNRjdhS3N6ZkIxejlOQnM2b01oUnRmIiwiUGxheURvbWFpbiI6ImR2b2Qud2VhdGhlcm9sLmNvbSIsIkFjY2Vzc0tleVNlY3JldCI6IkhZYmNYWDdQQ0hiOXF4R0duRGJUM3ZEWjF5c2ttQXo2UFpWRXBZN1pDQ28yIiwiUmVnaW9uIjoiY24tc2hhbmdoYWkiLCJDdXN0b21lcklkIjoxMTkwMDkxMzU3MDIxMDA0fQ=="
+  solarterm24: "谷雨"
+  status: "2"
+  title: "谷雨食春 鲜嫩香椿应该怎么挑选"
+  vidDate: "2021-04-13"
+  video_type: "3"
+  vodRequestId: ""
+  vodfileid: "35825da87830465da74e97a2c2fa4f37"
+  vodurl: "https://dvod.weatherol.com/35825da87830465da74e97a2c2fa4f37/18f8218ebb6b4df094d3d3f014ed2158-91d77b63235c710be28f70ac196b867d-sd.mp4" -->
+
+
+
+
+
+
+
+
+<!-- <script src="js/index.js" charset="utf-8"></script>
+      <script type="text/javascript">
+        <div id="mse1"></div>
+        <div id="mse2"></div>
+        <div id="mse3"></div>
+       play("mse1","//s1.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo.mp4")
+       play("mse2","//s1.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo.mp4")
+       play("mse3","//s1.pstatp.com/cdn/expire-1-M/byted-player-videos/1.0.0/xgplayer-demo.mp4")
+      function play(id,url){
+          let player = new Player({
+          "id": id,
+          "url": url,
+          "playsinline": true,
+          "width": "300",
+          "height": "300",
+          "volume": 0.5,
+          "download": true
+        });
+      }
+  
+        </script> -->
